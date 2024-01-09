@@ -1,0 +1,82 @@
+.dashboard-header {
+    padding: 12px 32px;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.dashboard-heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.dashboard-heading > span {
+    font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+color: #1A181E;
+}
+
+.how-it-work {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #4D4D4D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+
+
+
+
+/* dashboard search classes*/
+
+.dashboard-search {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    gap: var(--Spacing-spacing-04, 8px);
+}
+
+.search-input {
+    padding: 9px 16px;
+    border-radius: 6px;
+background: #F2F2F2;
+width: 100%;
+    padding-left: 40px;
+}
+
+.search-input::placeholder {
+    color: #808080;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+
+
+/* dashboard options classes */
+
+.dashboard-options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+@media screen and (max-width: 950px){
+    .dashboard-search {
+        max-width: 400px;
+    }
+}
