@@ -4,7 +4,7 @@ import "../styles/dashboard.css";
 
 export const Dashboard = () => {
   return (
-    <div className="dashboard h-svh flex flex-col ">
+    <div className="dashboard h-dvh flex flex-col ">
       <DashboardHeader />
       <DashboardSection />
     </div>
